@@ -1,0 +1,16 @@
+# --- General ---
+.idea/
+*.iml
+*.log
+.DS_Store
+
+# --- Backend (Spring Boot) ---
+backend/target/
+backend/src/main/resources/application.properties
+
+# --- Frontend (React) ---
+login-ui/node_modules/
+login-ui/build/
+
+# --- Automation (Java) ---
+automation-tests/target/
